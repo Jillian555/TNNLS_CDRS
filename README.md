@@ -3,7 +3,6 @@ PyTorch implementation of the paper "[Collaborative Decision-Reinforced Self-Sup
 
 
 # Get started
-For single gpu run
 ```Shell
 cd arvga
 python -u cdrs_arvga.py --ds='cora' --e=152 --e1=180 --e2=200 --e3=300 --epochs=900 --pseudo_num=36 --lr_dec=0.15 --func='col' --max_num=700 --w_sup=1.0
