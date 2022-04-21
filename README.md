@@ -12,7 +12,7 @@ python -u cdrs_arvga.py --ds='cora' --e=152 --e1=180 --e2=200 --e3=300 --epochs=
 # Citation
 
 ```BibTeX
-@ARTICLE{9721669,
+@ARTICLE{cdrs,
   author={Pengfei Zhu, Jialu Li, Yu Wang, Bin Xiao, Shuai Zhao, Qinghua Hu},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
   title={Collaborative Decision-Reinforced Self-Supervision for Attributed Graph Clustering}, 
