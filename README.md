@@ -22,5 +22,3 @@ python -u cdrs_arvga.py --ds='cora' --e=152 --e1=180 --e2=200 --e3=300 --epochs=
   doi={}}
 ```
 
-# Thanks
-Thank the team for their contribution to this work.
