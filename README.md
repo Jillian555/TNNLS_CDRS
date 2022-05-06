@@ -19,6 +19,6 @@ python -u cdrs_arvga.py --ds='cora' --e=152 --e1=180 --e2=200 --e3=300 --epochs=
   volume={},
   number={},
   pages={1-14},
-  doi={}}
+  doi={10.1109/TNNLS.2022.3171583}}
 ```
 
