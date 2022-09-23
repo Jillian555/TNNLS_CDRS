@@ -98,6 +98,7 @@ def main():
     pnum = []
 
     # build model
+    # This is the Pytorch implementation for ARVGA
     if args.model == 'arvga':
         model = CDRS(feat_dim, args.hidden1, args.hidden2, args.dropout, cluster_num)
     modeldis = Discriminator(args.hidden1, args.hidden2, args.hidden3)
