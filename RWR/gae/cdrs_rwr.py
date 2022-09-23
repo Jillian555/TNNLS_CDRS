@@ -57,7 +57,7 @@ parser.add_argument('--context', type=int, default=0, help="whether to use conte
 parser.add_argument('--ns', type=int, default=1, help="whether to use negative samples for skipgram")
 parser.add_argument('--save_ckpt', type=int, default=0, help='whether to save checkpoint, 0/1.')
 parser.add_argument('--use_ckpt', type=int, default=0, help='whether to use checkpoint, 0/1.')
-parser.add_argument('--optimi', type=str, default='SGD', help="Optimizers used:[SGD ADAM]")
+parser.add_argument('--optimi', type=str, default='SGD', help="Optimizers used:[SGD, ADAM]")
 args = parser.parse_args()
 
 
