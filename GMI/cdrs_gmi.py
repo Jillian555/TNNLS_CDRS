@@ -33,7 +33,7 @@ parser.add_argument('--epoch', type=int, default=400, help='Number of epochs to 
 parser.add_argument('--epochs', type=int, default=400, help='Number of epochs to train.')
 parser.add_argument('--update', type=int, default=10, help='update epoch.')
 parser.add_argument('--model', type=str, default='gmi', help="Models used")
-parser.add_argument('--optimi', type=str, default='SGD', help="Optimizers used:[SGD ADAM]")
+parser.add_argument('--optimi', type=str, default='SGD', help="Optimizers used:[SGD, ADAM]")
 parser.add_argument('--all', type=int, default=0, help='whether to use print, 0/1.')
 parser.add_argument('--use_ckpt', type=int, default=0, help='whether to use print, 0/1.')
 parser.add_argument('--save_ckpt', type=int, default=0, help='whether to use print, 0/1.')
