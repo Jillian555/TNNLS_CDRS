@@ -33,7 +33,7 @@ parser.add_argument('--epoch', type=int, default=400, help='Number of epochs to 
 parser.add_argument('--epochs', type=int, default=400, help='Number of epochs to train.')
 parser.add_argument('--update', type=int, default=10, help='update epoch.')
 parser.add_argument('--model', type=str, default='dgi', help="Models used")
-parser.add_argument('--optimi', type=str, default='SGD', help="Optimizers used:[SGD ADAM]")
+parser.add_argument('--optimi', type=str, default='SGD', help="Optimizers used:[SGD, ADAM]")
 parser.add_argument('--hidden1', type=int, default=512, help='Number of units in hidden layer 2.')
 parser.add_argument('--hidden2', type=int, default=512, help='Number of units in hidden layer 2.')
 parser.add_argument('--save_ckpt', type=int, default=0, help='whether to save checkpoint, 0/1.')
