@@ -18,7 +18,7 @@ python cdrs_arvga.py --ds='cora' --e=152 --e1=180 --e2=200 --e3=300 --epochs=900
   year={2022},
   volume={},
   number={},
-  pages={1-14},
+  pages={1-13},
   doi={10.1109/TNNLS.2022.3171583}}
 ```
 
